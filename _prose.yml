@@ -1,0 +1,54 @@
+permalink: pretty
+markdown: kramdown
+prose:
+  rooturl: ''
+  siteurl: 'https://cccohesion.github.io/'
+  relativeLinks: 'https://cccohesion.github.io/links.jsonp'
+  media: 'images'
+  ignore:
+    - .sass-cache/
+    - CNAME
+    - manifest.json
+    - Rakefile
+    - Rakefile.rb
+    - upup.sw.min.js
+    - index.html
+    - _config.yml
+    - _config_dev.yml
+    - _prose.yml
+    - .travis.yml
+    - 404.html
+    - LICENSE
+    - README.md
+    - humans.txt
+    - feed.xml
+    - links.jsonp
+    - browserconfig.xml
+    - Gemfile
+    - Gemfile.lock
+    - .editorconfig
+    - .gitattributes
+    - .gitignore
+    - .ruby-version
+    - .htaccess
+    - package.json
+    - Procfile
+    - /_layouts
+    - /_includes
+    - /_data
+    - /_sass
+    - /_posts
+    - /_plugins
+    - /public
+    - /files
+    - /images
+    - /script
+    - /assets
+    - /blog
+    - /js
+    - /scripts
+    - /img
+    - _site
+    - index.html
+    - 09-contact.html
+    - favicon.ico
