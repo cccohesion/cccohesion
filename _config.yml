@@ -148,8 +148,8 @@ social:
     url: "http://www.facebook.com/cccohesion"
   - title: "linkedin"
     url: "https://fr.linkedin.com/in/laurent-chotard-b380405b"
-  - title: "viadeo"
-    url: "http://www.viadeo.com/fr/profile/laurent.chotard4"
+  # - title: "viadeo"
+  #   url: "http://www.viadeo.com/fr/profile/laurent.chotard4"
   # - title: "rss"
   #   url: "/feed.xml"
 

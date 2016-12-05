@@ -375,6 +375,16 @@ ul.social-buttons li a {
     &:active {
         color: #222;
         background-color: darken($social-buttons-color, 10%);
+        svg {
+            color: #222;
+            fill: #222;    
+        }
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      color: #00cdff;
+      fill: #00cdff;
     }
 }
 
@@ -497,4 +507,54 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
+}
+
+
+form {
+  max-width: 40rem;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+form input, form textarea {
+  margin-bottom: 1em;
+  color: #000;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input, textarea {
+  font-size: 0.8em;
+  font-family: 'proxima-nova-soft', sans-serif;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 1.5rem;
+  padding: 0.5em 0.9em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+button:hover, a.button:hover {
+  color: #000;
+  background: orange;
+}
+
+button, a.button {
+  width: 100%;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid orange;
+  color: #fff;
+  background: transparent;
+  line-height: 1em;
+  margin: 2rem 0;
+  padding: 1em 0.9em;
+  transition: all 0.3s ease-in-out;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
 }
