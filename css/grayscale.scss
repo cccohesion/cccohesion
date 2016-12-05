@@ -296,7 +296,7 @@ a {
             padding: 4px;
         }
     }
-    ul.list-button {
+    &.content-button ul {
       @media(min-width:768px) {
         display: flex;
       }
@@ -355,6 +355,7 @@ a {
 }
 
 /* Added in { Personal } */
+
 ul.social-buttons li a {
     display: block;
     width: 40px;
