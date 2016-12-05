@@ -45,10 +45,12 @@ prose:
     - /script
     - /assets
     - /blog
+    - /css
     - /js
     - /scripts
     - /img
     - _site
     - index.html
+    - sitemap.xml
     - 09-contact.html
     - favicon.ico
