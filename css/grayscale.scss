@@ -16,6 +16,7 @@ body {
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $font-color;
     background-color: $primary-color;
+    background-color: #081558;
 }
 
 html {
@@ -97,6 +98,7 @@ a {
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
+    background: #081558; 
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -157,33 +159,48 @@ a {
         border-bottom: none;
         letter-spacing: 1px;
         background: $navbar-lg-background;
+        background: #081558;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
             background: $navbar-lg-collapse-background-color;
+            background: #081558;
             border-bottom: 1px solid rgba($font-color, 0.3);
         }
     }
 }
 
 .intro {
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: auto;
-    min-height: 40rem;
+    min-height: 50rem;
     padding: 20rem 0 5rem;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) no-repeat center center scroll;
     {% endif %}
+    .coaching-comportemental & {
+        background-image: url(../img/bg-people.jpg);
+    }
+    .consultant-en-management & {
+        background-image: url(../img/bg-man.jpg);
+    }
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    h1 {
+        padding: 1rem 2rem;
+        background: rgba(0,0,0,0.3);
+        text-shadow: 1px 1px 1px #000;
+    }
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -251,12 +268,21 @@ a {
     }
 }
 
+.content-prestation {
+    margin-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background: orange;
+    text-align: center;
+}
+
 .content-section {
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 2rem;
     @media(min-width:767px) {
-        margin-top: 20px;
-        padding-top: 20px;
+        margin-top: 0px;
+        padding-top: 2rem;
+        padding-bottom: 6rem;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
@@ -307,7 +333,7 @@ a {
       li {
         flex: 1;
         margin: 0 1rem 1rem;
-        border: 2px solid orange;
+        border: 5px solid orange;
       }
       a {
         display: block;
@@ -322,12 +348,26 @@ a {
         text-align: center;
         color: #fff;
         background: transparent;
+        cursor: pointer;
         &:hover {
             color: #000;
             background: orange;
         }
       }
+      .content-prestation & {
+        li {
+            border-color: #081558;
+        }
+        a {
+            color: #081558;
+            &:hover {
+                color: #fff;
+                background: #081558;
+            }
+        }
+      }
     }
+
 
 }
 
@@ -364,7 +404,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: $social-buttons-color;
+    color: orange;
     background-color: #222;
 
     -webkit-transition: all .3s;
@@ -375,7 +415,7 @@ ul.social-buttons li a {
     &:focus,
     &:active {
         color: #222;
-        background-color: darken($social-buttons-color, 10%);
+        background-color: darken(orange, 10%);
         svg {
             color: #222;
             fill: #222;    
@@ -384,8 +424,8 @@ ul.social-buttons li a {
     svg {
       width: 20px;
       height: 20px;
-      color: #00cdff;
-      fill: #00cdff;
+      color: orange;
+      fill: orange;
     }
 }
 

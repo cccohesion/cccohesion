@@ -6,7 +6,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="{{ page.title | slugify }}">
 
     {% include navigation.html %}
 
@@ -24,6 +24,8 @@
         </div>
       </div>
     </section>
+
+    {% include prestation.html %}
 
     {% include footer.html %}
 
