@@ -6,8 +6,8 @@ sitemap:
 
 ## L’esprit de cohésion
   
- - [Découverte de soi](/coaching-comportemental/#développement-personnel)
- - [Efficacité](/coaching-comportemental/#lesprit-déquipe)
- - [Cohésion](/vision/#la-cohésion)
- - [Stratégie](/vision/#coacher-cest-manager-des-hommes)
+ - [Découverte de soi](/coaching-comportemental/)
+ - [Efficacité](/consultant-formateur/)
+ - [Cohésion](/coaching-comportemental/)
+ - [Stratégie](/consultant-formateur/)
 

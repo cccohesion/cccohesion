@@ -114,9 +114,18 @@ a {
         }
     }
     .navbar-brand {
+        float: none;
+        @media(min-width:768px) {
+          display: inline-block;
+        }
+        padding: 15px 15px 0;
         font-weight: 700;
+        text-align: center;
         &:focus {
             outline: none;
+        }
+        img {
+          margin: auto;  
         }
     }
     a {
@@ -176,6 +185,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: auto;
     min-height: 50rem;
@@ -185,21 +195,36 @@ a {
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat center center scroll;
     {% endif %}
+    .qui-suis-je & {
+        background-image: url(../img/bg-van.jpg);
+    }
+    .ma-vision & {
+      background-image: url(../img/bg-montagne.jpg); 
+    }
+    .contact & {
+      background-image: url(../img/bg-man.jpg); 
+    }
     .coaching-comportemental & {
         background-image: url(../img/bg-people.jpg);
     }
     .consultant-en-management & {
-        background-image: url(../img/bg-man.jpg);
+        background-image: url(../img/bg-main.jpg);
     }
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-position: 50% 50%;
     h1 {
         padding: 1rem 2rem;
         background: rgba(0,0,0,0.3);
         text-shadow: 1px 1px 1px #000;
+    }
+    .intro-author {
+      clear: both;
+      display: block;
+      border-radius: 50%;
     }
     .intro-body {
         display: table-cell;
@@ -269,10 +294,10 @@ a {
 }
 
 .content-prestation {
-    margin-top: 6rem;
-    padding-top: 3rem;
-    padding-bottom: 6rem;
-    background: orange;
+    margin-top: 0;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background: $secondary-color;
     text-align: center;
 }
 
@@ -280,8 +305,8 @@ a {
     margin-top: 10px;
     padding-top: 2rem;
     @media(min-width:767px) {
-        margin-top: 0px;
-        padding-top: 2rem;
+        margin-top: 0;
+        padding-top: 6rem;
         padding-bottom: 6rem;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
@@ -333,7 +358,7 @@ a {
       li {
         flex: 1;
         margin: 0 1rem 1rem;
-        border: 5px solid orange;
+        border: 5px solid $secondary-color;
       }
       a {
         display: block;
@@ -351,7 +376,7 @@ a {
         cursor: pointer;
         &:hover {
             color: #000;
-            background: orange;
+            background: $secondary-color;
         }
       }
       .content-prestation & {
@@ -404,7 +429,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: orange;
+    color: $secondary-color;
     background-color: #222;
 
     -webkit-transition: all .3s;
@@ -415,7 +440,7 @@ ul.social-buttons li a {
     &:focus,
     &:active {
         color: #222;
-        background-color: darken(orange, 10%);
+        background-color: darken($secondary-color, 10%);
         svg {
             color: #222;
             fill: #222;    
@@ -424,8 +449,8 @@ ul.social-buttons li a {
     svg {
       width: 20px;
       height: 20px;
-      color: orange;
-      fill: orange;
+      color: $secondary-color;
+      fill: $secondary-color;
     }
 }
 
@@ -578,7 +603,7 @@ input, textarea {
 }
 button:hover, a.button:hover {
   color: #000;
-  background: orange;
+  background: $secondary-color;
 }
 
 button, a.button {
@@ -586,7 +611,7 @@ button, a.button {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 600;
-  border: 2px solid orange;
+  border: 2px solid $secondary-color;
   color: #fff;
   background: transparent;
   line-height: 1em;
