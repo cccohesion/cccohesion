@@ -181,6 +181,12 @@ a {
     }
 }
 
+.intro-author {
+  clear: both;
+  display: block;
+  border-radius: 50%;
+}
+
 .intro {
     display: flex;
     align-items: center;
@@ -205,10 +211,10 @@ a {
       background-image: url(../img/bg-man.jpg); 
     }
     .coaching-comportemental & {
-        background-image: url(../img/bg-people.jpg);
+      background-image: url(../img/bg-main.jpg);
     }
     .consultant-en-management & {
-        background-image: url(../img/bg-main.jpg);
+      background-image: url(../img/bg-people.jpg);
     }
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -220,11 +226,6 @@ a {
         padding: 1rem 2rem;
         background: rgba(0,0,0,0.3);
         text-shadow: 1px 1px 1px #000;
-    }
-    .intro-author {
-      clear: both;
-      display: block;
-      border-radius: 50%;
     }
     .intro-body {
         display: table-cell;
