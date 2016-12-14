@@ -1,6 +1,6 @@
 ---
+title: Laurent Chotard Coach
 layout: index
-title: "Laurent Chotard Coach"
 sitemap:
   priority: 1.0
 ---
