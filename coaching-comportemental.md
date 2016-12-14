@@ -3,6 +3,8 @@ title: Coaching comportemental
 permalink: coaching-comportemental/
 layout: page
 section-type: about
+navigation: false
+weight: '9'
 ---
 
 > "La performance du groupe n’existe que s’il y a confiance et sens partagé."

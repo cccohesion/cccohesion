@@ -2,6 +2,8 @@
 title: Consultant en management
 permalink: consultant-formateur/
 layout: page
+navigation: false
+weight: '9'
 ---
 
 ## Consultant en management <br> Qualité Sécurité Environnement
