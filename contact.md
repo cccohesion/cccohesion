@@ -4,10 +4,12 @@ permalink: contact/
 layout: page
 section-type: contact
 navigation: true
-weight: '3'
+weight: 3
 ---
 
 <img class="intro-author" src="/img/author.png" alt="moi">
+
+<br>
 
 <form action="https://formspree.io/laurent.chotard@protonmail.com" method="POST">
     <label for="name">Votre Nom</label>
