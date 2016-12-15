@@ -2,9 +2,8 @@
 title: Qui suis-je ?
 permalink: apropos/
 layout: page
-section-type: about
 navigation: true
-weight: '1'
+ordre: '1'
 ---
 
 Je suis un ancien Sapeur Pompier de Paris où j’ai servi pendant 15 ans.
