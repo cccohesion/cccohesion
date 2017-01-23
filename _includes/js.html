@@ -30,34 +30,6 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 {% endif %}
 
-{% if site.syntax-highlight and page.section-type == "post" %}
-
-  <!-- Syntax highlight in post pages-->
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-
-{% endif %}
-
-{% if jekyll.environment == "production" %}
-  {% if site.google-tracking-id %}
-
-  <!-- Google Tracking Id Start -->
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google-tracking-id }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <!-- Google Tracking Id End -->
-
-  {% endif %}
-{% endif %}
-
 
 {% if page.section-type == "post" %}
 
@@ -69,177 +41,23 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 {% endif %}
 
-{% if site.dynamic-typing and page.section-type == "index" %}
 
-  <!-- Dynamic Typing Start -->
 
-  <script type="text/javascript" src="{{site.baseurl}}/js/typed.min.js"></script>
-  <script type="text/javascript">
-
-  var myQuotes =  new Array();
-  {% for line in site.lines %}
-    myQuotes.push("{{ line.text }}");
-  {% endfor %}
-
-  function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex ;
-
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
-
-    return array;
-  }
-
-  {% if site.shuffle %}
-    shuffle(myQuotes)
-  {% endif %}
-
-    $(".intro-text").typed({
-      strings: myQuotes,
-      typeSpeed: {{ site.type-speed }},
-      backDelay: {{ site.delete-delay }},
-      startDelay: {{ site.start-delay }},
-      loop: {{ site..loop }},
-      loopCount: {{ site.loop-count }},
-      cursorChar: "|"
-    });
-  </script>
-
-  <!-- Dynamic Typing End  -->
-
-{% endif %}
-
-<script>
-function addTohistory() {
-  if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, '{{page.title}}', '{{site.url}}{{site.baseurl}}{{page.url}}');
-  }
-}
-</script>
-
-<!-- Gesture Navigation / Swipe Instruction Start -->
-{% if site.enable-gesture-navigation %}
-
-  {% if page.section-type == "post" %}
-
-    <!-- Post Gesture Navigation Start -->
-
-    <script type="text/javascript" src="{{site.baseurl}}/js/hammer.min.js"></script>
-
-    <script>
-      var post = document.getElementById('post');
-
-      new Hammer(post).on('swipeleft', function(event) {
-        addTohistory();
-        {% if site.baseurl == "" and page.previous == nil %}
-          document.location.replace("/");
-        {% else %}
-          document.location.replace("{{site.baseurl}}{{page.previous.url}}");
-        {% endif %}
-      });
-
-      new Hammer(post).on('swiperight', function(event) {
-        addTohistory();
-        {% if site.baseurl == "" and page.next == nil %}
-          document.location.replace("/");
-        {% else %}
-          document.location.replace("{{site.baseurl}}{{page.next.url}}");
-        {% endif %}
-      });
-    </script>
-
-    <!-- Post Gesture Navigation Start -->
-
-  {% endif %}
-
-  {% if page.section-type == "blog" %}
-
-    <!-- Blog Gesture Navigation Start -->
-
-    <script type="text/javascript" src="{{site.baseurl}}/js/hammer.min.js"></script>
-
-    <script>
-      var page = document.getElementById('page');
-
-      new Hammer(page).on('swipeleft', function(event) {
-        addTohistory();
-        {% if site.baseurl == "" and paginator.next_page_path == nil %}
-          document.location.replace("/");
-        {% else %}
-          document.location.replace("{{site.baseurl}}{{paginator.next_page_path}}");
-        {% endif %}
-      });
-      new Hammer(page).on('swiperight', function(event) {
-        addTohistory();
-        {% if site.baseurl == "" and paginator.previous_page_path == nil %}
-          document.location.replace("/");
-        {% else %}
-          document.location.replace("{{site.baseurl}}{{paginator.previous_page_path}}");
-        {% endif %}
-      });
-    </script>
-
-    <!-- Blog Gesture Navigation Start -->
-
-  {% endif %}
-
-  {% if page.section-type == "blog" %}
-
-    <!-- Swipe Instructions for Blog Start -->
-
-    <script>
-      $(document).ready(function(){
-        if(!localStorage.getItem('blog-swipeshowed')){
-          $("#swipe-instruction").fadeIn();
-          $("#swipe-instruction .close-swipe-instruction").click(function(){
-            $("#swipe-instruction").fadeOut();
-          });
-          localStorage.setItem('blog-swipeshowed', true);
-        }
-      });
-    </script>
-
-    <!-- Swipe Instructions for Blog End -->
-
-  {% endif %}
-
-  {% if page.section-type == "post" %}
-
-    <!-- Swipe Instructions for Post Start -->
-
-    <script>
-      $(document).ready(function(){
-        if(!localStorage.getItem('post-swipeshowed')){
-          $("#swipe-instruction").fadeIn();
-          $("#swipe-instruction .close-swipe-instruction").click(function(){
-            $("#swipe-instruction").fadeOut();
-          });
-          localStorage.setItem('post-swipeshowed', true);
-        }
-      });
-    </script>
-
-    <!-- Swipe Instructions for Post End -->
-
-  {% endif %}
 
 <!-- Gesture Navigation / Swipe Instruction End -->
 
 {% endif %}
 
 <script src="{{ site.baseurl }}/js/instantclick.min.js" data-no-instant></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js" async></script>
 <script data-no-instant>
   InstantClick.init();
+  UpUp.start({
+    'content-url': '{{ page.url | prepend: site.url }} }}',
+    'assets': ['{{ site.url }}/css/main.css'],
+    'service-worker-url': '/upup.sw.min.js'
+  });
 </script>
+
 
 <!-- Javascript End -->
