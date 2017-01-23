@@ -1,9 +1,9 @@
 ---
 title: Ma vision
 permalink: vision/
-layout: page
 navigation: true
-ordre: '2'
+ordre: 2
+layout: page
 ---
 
 > "Le bonheur n'est pas au sommet de la montagne mais dans la façon de la gravir.
