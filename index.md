@@ -1,8 +1,8 @@
 ---
 title: Laurent Chotard Coach
-layout: index
 sitemap:
-  priority: 1.0
+  priority: 1
+layout: index
 ---
 
 ## L’esprit de cohésion
