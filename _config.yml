@@ -13,8 +13,8 @@ defaults:
     path: ''
   values:
     layout: page
-    navigation: 'false'
-    weight: '9'
+    navigation: false
+    ordre: 9
     permalink: 
 url: ''
 baseurl: 
