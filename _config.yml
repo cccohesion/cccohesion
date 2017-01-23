@@ -1,7 +1,6 @@
 ---
 title: Laurent Chotard
 timezone: UTC
-
 collections:
   posts:
     title: Posts
@@ -17,10 +16,8 @@ defaults:
     navigation: false
     ordre: 9
     permalink: 
-
 url: ''
 baseurl: 
-
 google-tracking-id: ''
 force-https: false
 lang: fr
@@ -37,7 +34,6 @@ loop-count: false
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-
 lines:
 - text: The lower you fall, the higher you'll fly.
 - text: Where’s your will to be weird?
@@ -65,7 +61,6 @@ pocket-share: false
 vkontakte-share: false
 disqus-shortname: ''
 syntax-highlight: true
-
 events:
 - image: "/img/timeline/spidertocat.png"
   date: September 2013 - Today
@@ -74,29 +69,24 @@ events:
   date: September 2007 - August 2013
   description: Started coding
 timeline-img: "/img/timeline/default.png"
-
 email: your@email.here
 author_blurb: La performance du groupe n’existe que s’il y a confiance et sens partagé.
 author_blurb_image: "/img/author.png"
-
 social:
 - title: facebook
   url: http://www.facebook.com/cccohesion
 - title: linkedin
   url: https://fr.linkedin.com/in/laurent-chotard-b380405b
-
 pages_list:
   About: about
   Blog: latest-post
   Timeline: timeline
   Contact: contact
-
 exclude:
 - LICENSE
 - README.md
 - CONTRIBUTING
 - CONTRIBUTORS
 - scripts
-
 sass:
   style: compressed
