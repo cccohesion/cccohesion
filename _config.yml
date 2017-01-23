@@ -19,7 +19,7 @@ defaults:
 url: ''
 baseurl: 
 google-tracking-id: ''
-force-https: true
+force-https: false
 lang: fr
 author: Laurent Chotard
 description: Mon métier est l'accompagnement de l'individu dans son environnement
