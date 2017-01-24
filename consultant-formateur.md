@@ -31,15 +31,15 @@ Restituer sans complaisance mais avec clarté à tous, les points forts, les fre
 
 * MANAGER PAR LES COULEURS
 
-  Ο Perfectionner son management
+  Perfectionner son management
 
-  Ο Développer son leadership
+  Développer son leadership
 
-  Ο Fédérer ses équipes autour d’un projet commun
+  Fédérer ses équipes autour d’un projet commun
 
-  Ο Gérer les situations difficiles
+  Gérer les situations difficiles
 
-  Ο Animer un processus co-responsable
+  Animer un processus co-responsable
 
 * COMMUNICATION INTERPERSONNEL
 
