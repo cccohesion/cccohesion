@@ -24,7 +24,6 @@ Pour fédérer, il faut donner de la considération. L’humain, c’est le cœu
 
 > "Être humain, c’est veiller à ce que chacun soit à sa place dans sa fonction."
 
-​
 ## Coacher c’est manager des Hommes
 
 L’humain ne dit jamais être oublié. Et pour cause, coacher une équipe revient tout simplement à gérer des femmes et des hommes afin d’obtenir des résultats satisfaisants en entreprise. L’ambition reste de faire en sorte que chacun puisse s’épanouir et ainsi mieux participer à la réussite de l’ensemble.

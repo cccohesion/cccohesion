@@ -17,7 +17,7 @@ Comprendre ses hommes, ses systèmes, son histoire et sa culture,
 ​
 Restituer sans complaisance mais avec clarté à tous, les points forts, les freins, les obstacles, les moteurs inexploités, les incompréhensions, les atouts...
 
-### Pour accompagner l'entreprise vers un système de management qui assure:###
+### Pour accompagner l'entreprise vers un système de management qui assure:
 
 * la conformité à la réglementation QSE et d'éventuels référentiels choisis,
 
@@ -27,7 +27,7 @@ Restituer sans complaisance mais avec clarté à tous, les points forts, les fre
 
 * l'engagement dans une démarche d'amélioration continue.
 
-### Formations proposées:###
+### Formations proposées:
 
 * MANAGER PAR LES COULEURS
 

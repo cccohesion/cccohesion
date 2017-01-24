@@ -61,7 +61,7 @@ Ainsi, lorsque cohésion il y a, très fréquemment cela s’illustre par une co
  
 Le second élément dont un manager doit avoir conscience est que la cohésion de groupe fluctue dans le temps au gré de divers facteurs renforçant ou diminuant son niveau. A la connaissance de ce second élément, les managers doivent prendre alors conscience « rien n’est acquis, et tout peut encore être fait ». 
 
-### Mais comment ? ###
+### Mais comment ?
  
  1. Soigner la relation entraîneur-entraînés (i.e., manager-salariés)
  2. Véhiculer des valeurs collectives
