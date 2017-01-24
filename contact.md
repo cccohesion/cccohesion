@@ -3,7 +3,7 @@ title: Contact
 permalink: contact/
 position: 6
 navigation: true
-ordre: 4
+ordre: 3
 section-type: contact
 layout: page
 ---
