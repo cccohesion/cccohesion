@@ -16,15 +16,33 @@ Comprendre ses hommes, ses systèmes, son histoire et sa culture,
 Écouter vraiment pour tout comprendre ou au moins s'en approcher,
 ​
 Restituer sans complaisance mais avec clarté à tous, les points forts, les freins, les obstacles, les moteurs inexploités, les incompréhensions, les atouts...
- 
+
 ### Pour accompagner l'entreprise vers un système de management qui assure:###
 
- - la conformité à la réglementation QSE et d'éventuels référentiels choisis,
- - la santé-sécurité du personnel aux postes de travail,
- - la réduction des impacts environnementaux de l'entreprise
- - l'engagement dans une démarche d'amélioration continue.
+* la conformité à la réglementation QSE et d'éventuels référentiels choisis,
+
+* la santé-sécurité du personnel aux postes de travail,
+
+* la réduction des impacts environnementaux de l'entreprise
+
+* l'engagement dans une démarche d'amélioration continue.
 
 ### Formations proposées:###
 
- - Santé et Sécurité au travail
- - Management des équipes
+* MANAGER PAR LES COULEURS
+
+  Ο Perfectionner son management
+
+  Ο Développer son leadership
+
+  Ο Fédérer ses équipes autour d’un projet commun
+
+  Ο Gérer les situations difficiles
+
+  Ο Animer un processus co-responsable
+
+* COMMUNICATION INTERPERSONNEL
+
+* PLAN DE PRÉVENTION
+
+* EvRP / DUER / GESTION DES ATMP
