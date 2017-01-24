@@ -3,7 +3,8 @@ title: Partenaires
 date: 2017-01-23 13:12:00 Z
 published: false
 position: 5
-ordre: 8
+navigation: true
+ordre: 3
 ---
 
 ![Carte avec logo Astérism Intégré.jpg.png](/uploads/Carte%20avec%20logo%20Ast%C3%A9rism%20Int%C3%A9gr%C3%A9.jpg.png)
