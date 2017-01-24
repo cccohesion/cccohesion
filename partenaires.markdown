@@ -2,6 +2,7 @@
 title: Partenaires
 date: 2017-01-23 13:12:00 Z
 published: false
+position: 6
 ordre: 8
 ---
 

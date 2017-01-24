@@ -1,6 +1,7 @@
 ---
 title: Contact
 permalink: contact/
+position: 0
 layout: page
 section-type: contact
 navigation: true

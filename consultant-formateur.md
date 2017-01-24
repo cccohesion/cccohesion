@@ -1,6 +1,7 @@
 ---
 title: Consultant en management
 permalink: consultant-formateur/
+position: 5
 navigation: false
 ordre: 9
 layout: page

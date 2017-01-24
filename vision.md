@@ -1,6 +1,7 @@
 ---
 title: Ma vision
 permalink: vision/
+position: 3
 navigation: true
 ordre: 2
 layout: page
