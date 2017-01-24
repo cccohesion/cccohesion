@@ -1,7 +1,7 @@
 ---
 title: Qui suis-je ?
 permalink: apropos/
-position: 2
+position: 0
 navigation: true
 ordre: 1
 layout: page
