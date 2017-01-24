@@ -2,10 +2,10 @@
 title: Contact
 permalink: contact/
 position: 6
-layout: page
-section-type: contact
 navigation: true
-ordre: 3
+ordre: 4
+section-type: contact
+layout: page
 ---
 
 <img class="intro-author" src="/img/author.png" alt="moi">
