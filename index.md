@@ -1,6 +1,6 @@
 ---
 title: Laurent Chotard Coach
-position: 4
+position: 3
 sitemap:
   priority: 1
 layout: index

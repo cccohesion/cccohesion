@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: contact/
-position: 1
+position: 6
 layout: page
 section-type: contact
 navigation: true
