@@ -12,7 +12,7 @@ layout: page
 
 <br>
 
-<form action="https://formspree.io/chotardconseil@cccohesion.com" method="POST">
+<form action="https://formspree.io/{{ site.email }}" method="POST">
     <label for="name">Votre Nom</label>
     <input type="text" name="nom">
     <label for="email">Votre Email</label>
