@@ -3,7 +3,7 @@ title: Partenaires
 date: 2017-01-23 13:12:00 Z
 position: 5
 navigation: true
-ordre: 2
+ordre: 3
 ---
 
 ## Le réseau du Coaching d’Equipes Partenaires Associés
