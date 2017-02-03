@@ -1,7 +1,6 @@
 ---
 title: Contact
 permalink: contact/
-position: 6
 navigation: true
 ordre: 4
 section-type: contact

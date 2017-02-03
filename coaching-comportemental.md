@@ -1,7 +1,6 @@
 ---
 title: Coaching comportemental
 permalink: coaching-comportemental/
-position: 2
 navigation: false
 ordre: 9
 layout: page
