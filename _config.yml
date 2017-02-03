@@ -22,7 +22,7 @@ google-tracking-id:
 force-https: false
 lang: fr
 author: Laurent Chotard
-description: Mon métier est l'accompagnement de l'individu dans son environnement
+description: Mon métier est l'accompagnement de l'individu dans son environnement - cohésion, individu, efficacité, management, comportemental
 keywords: cohesion, individu, efficacité, management, comportemental
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
@@ -61,13 +61,6 @@ pocket-share: false
 vkontakte-share: false
 disqus-shortname: 
 syntax-highlight: true
-events:
-- image: "/img/timeline/spidertocat.png"
-  date: 2013-09-01 00:00:00.000000000 Z
-  description: Saving the neighborhood!
-- image: "/img/timeline/baracktocat.jpg"
-  date: 2007-09-01 00:00:00.000000000 Z
-  description: Started coding
 timeline-img: "/img/timeline/default.png"
 email: chotardconseil@cccohesion.com
 author_blurb: La performance du groupe n’existe que s’il y a confiance et sens partagé.

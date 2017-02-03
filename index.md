@@ -1,5 +1,5 @@
 ---
-title: Laurent Chotard Coach
+title: Laurent Chotard Coach en management comportemental
 ordre: 3
 sitemap:
   priority: 1
