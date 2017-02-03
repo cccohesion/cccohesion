@@ -22,7 +22,8 @@ google-tracking-id:
 force-https: false
 lang: fr
 author: Laurent Chotard
-description: Mon métier est l'accompagnement de l'individu dans son environnement - cohésion, individu, efficacité, management, comportemental
+description: Mon métier est l'accompagnement de l'individu dans son environnement
+  - cohésion, individu, efficacité, management, comportemental
 keywords: cohesion, individu, efficacité, management, comportemental
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
