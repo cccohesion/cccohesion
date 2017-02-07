@@ -42,7 +42,21 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 {% endif %}
 
 <script src="{{ site.baseurl }}/js/instantclick.min.js" data-no-instant></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js" async></script>
+<script>
+  // Install Service Worker
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+
+  // Clean Service Worker cache
+  // https://adactio.com/journal/9888
+  window.addEventListener('load', function() {
+    if (navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+    }
+  });
+</script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js" async></script>
 <script data-no-instant>
   InstantClick.init();
   UpUp.start({
@@ -50,7 +64,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     'assets': ['{{ site.url }}/css/grayscale.css'],
     'service-worker-url': '/upup.sw.min.js'
   });
-</script>
+</script> -->
 
 
 <!-- Javascript End -->
