@@ -1,0 +1,45 @@
+---
+layout: default
+title: Pas de connexion
+---
+
+<p class="info">Désolé, <strong>vous ne semblez pas être connecté</strong>, et la page à laquelle vous essayez d'accéder n'est pas dans votre cache.</p>
+
+<ul id="cache-entries"></ul>
+
+<script>
+// https://googlechrome.github.io/samples/service-worker/window-caches/
+let cacheEntriesUl = document.querySelector('#cache-entries');
+
+window.caches.keys().then(cacheNames => {
+  cacheNames.forEach(cacheName => {
+    if (/\:\:pages$/.test(cacheName)) {
+      window.caches.open(cacheName).then(cache => {
+        return cache.keys();
+      })
+      .then(requests => {
+        requests.forEach(request => {
+          let path = request.url.replace(/^https?:\/\/[^\/]+\//, '/');
+          if (path !== lastPostUrl && /^\/(tags|[0-9]{4})\//.test(path)) {
+            addRequestToList(cacheName, request);
+          }
+        });
+      });
+    }
+  });
+});
+
+function addRequestToList(cacheName, request) {
+  let url = request.url;
+  let shortUrl = url.replace(/https?:\/\/[^\/]+\//, '');
+
+  let linkElement = document.createElement('a');
+  linkElement.href = url;
+  linkElement.textContent = shortUrl;
+
+  let liElement = document.createElement('li');
+  liElement.appendChild(linkElement);
+
+  cacheEntriesUl.appendChild(liElement);
+}
+</script>
