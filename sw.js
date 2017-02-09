@@ -26,7 +26,7 @@ const offlinePages = [
 ];
 
 const offlineImages = [
-  '/assets/photo-de-nicolas-hoizey-400px.jpg',
+  '/assets/author.png',
 ];
 
 function updateStaticCache() {
@@ -43,7 +43,7 @@ function updateStaticCache() {
   return caches.open(staticCacheName)
     .then(cache => {
       return cache.addAll([
-        '{% asset_path "non-critical-styles" %}',
+        '',
       ]);
   });
 }

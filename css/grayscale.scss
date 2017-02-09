@@ -199,10 +199,10 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat center center scroll;
+      background: url({{ site.background-img }}) no-repeat center center scroll;
     {% endif %}
     .qui-suis-je & {
-        background-image: url(../img/bg-van.jpg);
+      background-image: url(../img/bg-van.jpg);
     }
     .ma-vision & {
       background-image: url(../img/bg-montagne.jpg); 
@@ -648,4 +648,16 @@ button, a.button {
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
+}
+
+.b-lazy {
+    -webkit-transition: opacity 100ms ease-in-out;
+       -moz-transition: opacity 100ms ease-in-out;
+         -o-transition: opacity 100ms ease-in-out;
+            transition: opacity 100ms ease-in-out;
+             max-width: 100%;
+               opacity: 0;
+}
+.b-lazy.b-loaded {
+               opacity: 1;
 }

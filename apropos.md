@@ -4,6 +4,7 @@ permalink: apropos/
 navigation: true
 ordre: 1
 layout: page
+background-image: bg-van.jpg
 ---
 
 Je suis un ancien Sapeur Pompier de Paris où j’ai servi pendant 15 ans.

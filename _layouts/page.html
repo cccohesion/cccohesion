@@ -10,7 +10,7 @@
 
     {% include navigation.html %}
 
-    <header class="intro">
+    <header class="intro b-lazy" {% if page.background-image %}data-src="/img/big-{{ page.background-image }}"{% endif %}>
         <h1>{{ page.title }}</h1>
     </header>
 

@@ -4,6 +4,7 @@ permalink: coaching-comportemental/
 navigation: false
 ordre: 9
 layout: page
+background-image: bg-main.jpg
 ---
 
 > "La performance du groupe n’existe que s’il y a confiance et sens partagé."

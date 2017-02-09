@@ -3,6 +3,7 @@ title: Partenaires
 date: 2017-01-23 13:12:00 Z
 navigation: true
 ordre: 3
+background-image: bg-ponton.jpg
 ---
 
 ## Le réseau du Coaching d’Equipes Partenaires Associés

@@ -4,6 +4,7 @@ permalink: vision/
 navigation: true
 ordre: 2
 layout: page
+background-image: bg-montagne.jpg
 ---
 
 > "Le bonheur n'est pas au sommet de la montagne mais dans la façon de la gravir.

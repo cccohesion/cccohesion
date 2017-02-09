@@ -4,6 +4,7 @@ permalink: consultant-formateur/
 navigation: false
 ordre: 9
 layout: page
+background-image: bg-people.jpg
 ---
 
 ## Consultant en management <br> Qualité Sécurité Environnement

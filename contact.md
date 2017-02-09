@@ -5,6 +5,7 @@ navigation: true
 ordre: 4
 section-type: contact
 layout: page
+background-image: bg-man.jpg
 ---
 
 <img class="intro-author" src="/img/author.png" alt="moi">
