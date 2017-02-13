@@ -37,7 +37,7 @@ background-image: bg-ponton.jpg
  **Coaching d’équipes** **Conseil en management, stratégie commerciale, marketing, gestion**
  C'est l'Equipe plus que l'Individu qui génère la Performance.
  Ce constat est le fruit de quelques 40 années de Directions Opérationnelles d'Equipes terrain ou de Management d'Entreprises, PME ou Groupe de Sociétés, notamment en situation de difficultés.
- Sfilt Management apporte, en plus, par une approche de Coaching d'équipe et la mise en place d'un fonctionnement en coresponsabilité, un cadre qui génère, par un  travail collaboratif, le développement d'une Intelligence source de performance.
+ Sfilt Management apporte, en plus, par une approche de Coaching d'équipe et la mise en place d'un fonctionnement en coresponsabilité, un cadre qui génère, par un  travail collaboratif, le développement d'une Intelligence collective, source de performance.
 
  - ### Franck AMIOT (69)
  **Coaching d’équipes** 
