@@ -1,5 +1,5 @@
 ---
-title: Laurent Chotard Coach en management comportemental
+title: Coach en management comportemental - Rouen
 ordre: 3
 sitemap:
   priority: 1
