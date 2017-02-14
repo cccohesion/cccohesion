@@ -27,7 +27,7 @@ description: Mon métier est l'accompagnement de l'individu dans son environneme
 keywords: cohesion, individu, efficacité, management, comportemental
 favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/big-ponton.jpg"
+background-img: "../img/bg-ponton.jpg"
 dynamic-typing: false
 shuffle: true
 loop: true
