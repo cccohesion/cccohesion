@@ -4,6 +4,7 @@ ordre: 3
 sitemap:
   priority: 1
 layout: index
+background-image: bg-ponton.jpg
 ---
 
 ## L’esprit de cohésion
