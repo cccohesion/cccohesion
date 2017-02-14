@@ -71,14 +71,18 @@ social:
   url: http://www.facebook.com/cccohesion
 - title: linkedin
   url: https://fr.linkedin.com/in/laurent-chotard-b380405b
+
+# Jekyll Assets
 assets:
   compress:
     css: true
     js: true
   autoprefixer:
     browsers:
-    - last 2 versions
-    - IE > 9
+      - "last 2 versions"
+      - "IE > 9"
+
+
 pages_list:
   About: about
   Blog: latest-post
@@ -92,3 +96,7 @@ exclude:
 - scripts
 sass:
   style: compressed
+
+gems:
+  - jekyll-assets
+  - jekyll-offline

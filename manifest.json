@@ -4,6 +4,8 @@ layout:
 
 {
   "name": "{{site.title}}",
+  "background_color": "#ca5d1b",
+  "theme_color": "#ca5d1b",
   "icons": [
     {
       "src": "{{site.baseurl}}{{site.icon-36p}}",
