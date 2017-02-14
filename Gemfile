@@ -24,4 +24,5 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem "jekyll-seo-tag"
     gem 'jekyll-github-metadata'
+    gem 'jekyll-offline', :git => 'git://github.com/jeremiak/jekyll-offline.git'
 end

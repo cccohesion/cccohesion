@@ -16,17 +16,8 @@
 <script>
   var bLazy = new Blazy({});
   // Install Service Worker
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
-  }
-
-  // Clean Service Worker cache
-  // https://adactio.com/journal/9888
-  window.addEventListener('load', function() {
-    if (navigator.serviceWorker.controller) {
-      navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-    }
-  });
 </script>
+
+{% register_service_worker %}
 
 <!-- Javascript End -->
