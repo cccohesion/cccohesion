@@ -38,7 +38,7 @@ delete-delay: 5000
 lines:
 - text: The lower you fall, the higher you'll fly.
 - text: Where’s your will to be weird?
-me-img: "/img/logo-cccohesion.png"
+me-img: "/img/logo-cccohesion.jpg"
 color-browser: "#000000"
 apple-status-bar-style: black
 web-app-mode: true
