@@ -1,10 +1,10 @@
 ---
-title: Coach en management comportemental - Rouen
+title: Coach en management comportemental - Seine-Maritime
 ordre: 3
 sitemap:
   priority: 1
-layout: index
 background-image: bg-ponton.jpg
+layout: index
 ---
 
 ## L’esprit de cohésion
