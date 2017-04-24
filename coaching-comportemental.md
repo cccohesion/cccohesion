@@ -3,8 +3,8 @@ title: Coaching comportemental
 permalink: coaching-comportemental/
 navigation: false
 ordre: 9
-layout: page
 background-image: bg-main.jpg
+layout: page
 ---
 
 > "La performance du groupe n’existe que s’il y a confiance et sens partagé."
@@ -63,7 +63,7 @@ Le second élément dont un manager doit avoir conscience est que la cohésion d
 
 ### Mais comment ?
  
- 1. Soigner la relation entraîneur-entraînés (i.e., manager-salariés)
+ 1. Soigner la relation manager-salariés
  2. Véhiculer des valeurs collectives
  3. Partager un objectif commun
  4. Veiller à l’ambiance de travail
