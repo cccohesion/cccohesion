@@ -3,8 +3,8 @@ title: Qui suis-je ?
 permalink: apropos/
 navigation: true
 ordre: 1
-layout: page
 background-image: bg-van.jpg
+layout: page
 ---
 
 Je suis un ancien Sapeur Pompier de Paris où j’ai servi pendant 15 ans.
@@ -39,7 +39,7 @@ Je vous aide à renforcer l'autonomie et l'agilité de votre organisation, à am
 Le bon fonctionnement d'une équipe et d'une organisation repose sur la collaboration entre les collaborateurs, la cohésion des actions, l'animation managériale bienveillante et la prise en compte des spécificités de chacun dans la conduite des changements. 
 ​
  
-*Pour mener à bien mes missions, je combine :*
+*Pour mener à bien mes missions, je combine :
 ​
  - l'accompagnement individuel et collectif
  - la conviction que l'humain est le facteur clé de réussite des projets et de la performance des organisations
