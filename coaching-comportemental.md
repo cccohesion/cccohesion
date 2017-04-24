@@ -63,7 +63,7 @@ Le second élément dont un manager doit avoir conscience est que la cohésion d
 
 ### Mais comment ?
  
- 1. Soigner la relation manager-salariés
+ 1. Soigner la relation manageur-salariés
  2. Véhiculer des valeurs collectives
  3. Partager un objectif commun
  4. Veiller à l’ambiance de travail
