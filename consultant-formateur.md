@@ -1,6 +1,6 @@
 ---
 title: Consultant en management
-permalink: consultant-formateur/
+permalink: consultant-formateur /
 navigation: false
 ordre: 9
 background-image: bg-people.jpg
@@ -54,3 +54,7 @@ Restituer sans complaisance mais avec clarté à tous, les points forts, les fre
 * SAUVETEUR SECOURISTE DU TRAVAIL
 
 * PREVENTION DES RISQUES LIES A L'ACTIVITE PHYSIQUE DU TRAVAIL
+
+* EQUIPIER DE PREMIERE INTERNEVENTION
+
+* EVACUATION DANS UNE ENTRPRISE ET DANS UN ETABLISSEMENT RECEVANT DU PUBLIC
